@@ -1,0 +1,56 @@
+
+<form id="booking-form">
+<div class="ferme-form-billets retour" onclick="location.reload()">
+    X
+</div>
+<div class="champ-form-billet">
+    <label for="name">Nom :</label>
+    <input type="text" id="name" name="name" required>
+</div>
+
+
+<div class="champ-form-billet">
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+</div>
+
+<div class="champ-form-billet">
+    <label for="phone">Téléphone :</label>
+    <input type="tel" id="phone" name="phone" required>
+</div>
+
+<div class="champ-form-billet">
+    <label for="event">Evénement :</label>
+    <select id="event" name="event" required>
+    <option value="" disabled selected>Sélectionnez un événement</option>
+    <option value="event1">Event 1</option>
+    <option value="event2">Event 2</option>
+    <option value="event3">Event 3</option>
+    </select>
+</div>
+
+<div class="champ-form-billet">
+    <label for="date">Date :</label>
+    <input type="date" id="date" name="date" required>
+</div>
+
+<div class="champ-form-billet">
+    <label for="time">Heure :</label>
+    <input type="time" id="time" name="time" required>
+</div>
+
+<div class="champ-form-billet">
+    <label for="ticket-quantity">Quantité de billets :</label>
+    <input type="number" id="ticket-quantity" name="ticket-quantity" min="1" required>
+</div>
+
+<div class="champ-form-billet">
+    <label for="message">Message :</label>
+    <textarea id="message" name="message"></textarea>
+</div>
+
+<div class="champ-form-billet">
+    <input type="submit" value="Réserver" class="button button_form_billet">
+</div>
+
+</form>

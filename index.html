@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UE206-G14</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/45b89ce990.css" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header id="header">
+        
+		<div class="row align-center">
+			
+			<div class="header-logo">
+				<h1>
+                    <img src="assets/image/logo.png" alt="star_wars logo" class="header-logo-img" />
+                </h1>
+			</div><!-- eof .header-logo -->
+			
+            <nav class="header-nav" id='nav'>
+                <ul class="header-nav-list">
+                    <li class="header-nav-item">
+                        <a href="#" class="header-nav-link" title="Accueil">Accueil</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#consign" class="header-nav-link" title="PRÉPAREZ VOTRE VISITE">PRÉPAREZ VOTRE VISITE</a>
+                            <ul class="header-sous-nav-list">
+                                <li class="header-sous-nav-item">
+                                    <a href="#actu-section" class="header-nav-sous-link" title="Découvrir">
+                                        Découvrir le monde de Star Wars
+                                    </a>
+                                </li>
+                                <li class="header-sous-nav-item">
+                                    <a href="#billets" class="header-nav-sous-link" title="réservation" >
+                                        Réservation
+                                    </a>
+                                </li>
+                                <li class="header-sous-nav-item">
+                                    <a href="#offre" class="header-nav-sous-link" title="cadeaux" >
+                                        Cadeaux
+                                    </a>
+                                </li>
+                                <li class="header-sous-nav-item">
+                                    <a href="#actu-section" class="header-nav-sous-link" title="Dossier-de-presse" >
+                                        Dossier de presse
+                                    </a>
+                                </li>
+                            </ul>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#localisation" class="header-nav-link" title="Infos pratiques">Infos pratiques</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#consign" class="header-nav-link" title="Aventures">Aventures</a>
+                    </li>                                     				
+                    <li class="header-nav-item">
+                        <a href="#footer" class="header-nav-link" title="Contact">Contact</a>
+                    </li>                                     				
+                </ul>
+             </nav><!-- eof .header-nav -->	
+		</div><!-- eof .row -->	
+	</header><!-- eof .header -->
+    <article id="header_items">
+        <div id="content-header">
+            <h1 id="header-titre"></h1>
+            <a href="#" class="button button-header" title="Je découvre">Je découvre</a>
+        </div>
+
+        <article id="billets">
+            <p class="titre-billets">Billets</p>
+            <div class='row billets-list-items'>
+                <div class='column column-3 billets-items'>
+                <i class="fa-solid fa-star icon-billets"></i>
+                    <p class="titre-billets-items">Billet(s) Parc(s)</p>
+                    <p class="text-billets-items">Profitez de nos Parc(s) pour un jour ou plus.</p>
+                    <a href="#" class="lien-billets-items" id="billets_form"></a>
+                </div>
+                <div class='column column-3 billets-items'>
+                <i class="fas fa-jedi icon-billets"></i>
+                    <p class="titre-billets-items">Pass Annuel</p>
+                    <p class="text-billets-items">Faites le plein de magie avec nos Pass Annuels.</p>
+                    <a href="#" class="lien-billets-items"></a>
+                </div>
+                <div class='column column-3 billets-items'>
+                <i class="fa-solid fa-rocket icon-billets"></i>
+                    <p class="titre-billets-items">Expériences</p>
+                    <p class="text-billets-items">Choisissez des expériences uniques et inoubliables.</p>
+                    <a href="#" class="lien-billets-items"></a>
+                </div>
+            </div>
+        </article>
+    </article>
+    
+    <article id="consign">
+        <h2 class="title-consign">BIEN PRÉPARER MA VENUE AU PARC</h2>
+        <div class="row list-consign">
+            <div class="column column-3 items-consign">
+            <i class="fa-solid fa-kit-medical"></i>
+                <p class="text-consign">Les consignes sanitaires</p>
+                <a href="#" class="lien-billets-items"></a>
+            </div>
+            <div class="column column-3 items-consign">
+                <i class="fa-regular fa-map"></i>
+                <p class="text-consign">Le plan du parc  </p>
+                <a href="#" class="lien-billets-items" id="consign_plan"></a>
+            </div>
+            <div class="column column-3 items-consign">
+            <i class="fa-sharp fa-solid fa-gopuram"></i>
+                <p class="text-consign">Venir au parc </p>
+                <a href="#" class="lien-billets-items"></a>
+            </div>
+        </div>
+        <div id="image_plan">
+            <div id='remove_plan' class='retour'>
+                X
+            </div>
+        </div>
+    </article>
+
+    <section class="actu-list " id="actu-section">
+        
+        <div class="en_tete_article actu">
+            <h1 class="title-actual">ACTUALIT&#201;S & &#201;V&#201;NEMENTS</h1>
+        </div>
+        
+        <div class="row actu_div">
+            <div class="column column-6">                    
+                <article class="actu-list-item">    
+                    <img src="./assets/image/image actu/1.jpg" alt="image descriptive" class="actu-list-img">
+                    <div>
+                        <p class="date">20<br>Déc</p>
+                        <h2 class="titre_box">
+                        Clone Force 99 est de retour!
+                        </h2>
+                        <a href="#" title="" class="button  button_box">Lire l'actualité</a>
+                    </div>
+                </article>	
+            </div>
+            <div class="column column-6">                    
+                <article class="actu-list-item">    
+                    <img src="./assets/image/image actu/2.png" alt="image descriptive" class="actu-list-img">
+                    <div>
+                        <p class="date">10<br>Déc</p>
+                        <h2 class="titre_box">
+                        Vivez l'expérience Star Wars en séjournant à l'Hôtel + Billets
+                        </h2>
+                        <a href="#" title="" class="button  button_box">Lire l'actualité</a>
+                    </div>
+                </article>	
+            </div>	
+            <div class="column column-6">                    
+                <article class="actu-list-item">    
+                    <img src="./assets/image/image actu/3.jpg" alt="image descriptive" class="actu-list-img">
+                        <div>
+                            <p class="date">4<br>Déc</p>
+                            <h2 class="titre_box">
+                            L'application mobile Parc STAR WARS
+                            </h2>
+                            <a href="#" title="" class="button  button_box">Lire l'actualité</a>
+                        </div>
+                    </article><!-- eof .actu-list-item -->	
+                </div><!-- eof .column -->		
+        </div><!-- eof .row -->	   
+    </section><!-- eof .actu-list -->	
+
+    <!--ce slogan est inspirer de https://codepen.io/Sicontis/details/qBPNpmW mais il est personaliser sur tout niveau js j'ai enlevé tout librairie-->
+    <section class="slogan">
+    <div class="container-slogan">
+        <div class="slide-bar-slogan" id="slidebar-slogan">
+            <div class="bar-slogan" id="bar-slogan"></div>
+        </div>
+        <div class="text-block-slogan" id="textone-slogan">
+            <h1>STAR-WARS</h1>
+        </div>
+        <div class="text-block-slogan" id="texttwo-slogan">
+            <h1>CHALLENGE</h1>
+        </div>
+    </div>
+
+    <button id="changeBtn-slogan">&nbsp;</button>
+
+    </section>
+    <!--fin slogan -->
+
+    <section class="star-wars-park">
+        <div class="content">
+            <h2>Star Wars Theme Park</h2>
+            <p>Découvrez la galaxie dans notre parc d'attractions Star Wars de pointe, avec des attractions palpitantes, des expériences interactives et des rencontres avec vos personnages préférés.</p>
+            <a href="#billets" class="acheter_ticket button">
+            Acheter un Ticket<i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="offre">
+        <h2 class="title-offre">Laissez-vous transporter dans l'univers de Star Wars grâce à nos OFFRES.</h2>
+        <div class="list-offre">
+            <div class="column column-3 items-offre">
+                <div class="image_offre">
+                    <img src="./assets/image/offre/Saga-Star-Wars.webp" alt="nos OFFRES">
+                </div>
+                <div class="offre-items-content">
+                    <div class="container-titre-offre">
+                        <h3 class="title-offre-iteams">Vivez l'expérience Star Wars à fond avec nos offres combinées Hôtel + Billets !</h3>
+                    </div>
+                    <div class="container-text-offre">
+                        <p class="text-offre">Profitez des attractions uniques, des rencontres avec vos personnages préférés et des événements exclusifs pour une expérience inoubliable.</p>
+                    </div>
+                <a href="#" class="lien-offre-items">J’en profite !</a>
+                </div>
+                
+            </div>
+            <div class="column column-3 items-offre">
+                <div class="image_offre">
+                    <img src="./assets/image/offre/22.webp" alt="nos OFFRES">
+                </div>
+                <div class="offre-items-content">
+                    <div class="container-titre-offre">
+                        <h3 class="title-offre-iteams">Billets au meilleur prix de l’année</h3>
+                    </div>
+                    <div class="container-text-offre">
+                        <p class="text-offre">Des prix qui fondent quand il fait froid, c’est magique ! Profitez des billets au meilleur prix de l’année pour des visites en semaine jusqu’au 3 février 2023.</p>
+                    </div>
+                <a href="#" class="lien-offre-items">J’en profite !</a>
+                </div>
+                
+            </div>
+            <div class="column column-3 items-offre">
+                <div class="image_offre">
+                    <img src="./assets/image/offre/33.webp" alt="nos OFFRES">
+                </div>
+                <div class="offre-items-content">
+                    <div class="container-titre-offre">
+                        <h3 class="title-offre-iteams">Rejoignez l'univers star_wars</h3>
+                    </div>
+                    <div class="container-text-offre">
+                        <p class="text-offre">Rejoignez l'armée Jedi, et venez découvrir les nouveaux univers de Star Wars au Parc Star Wars ! Vivez des aventures épiques sur nos attractions à couper le souffle, rencontrez vos personnages préférés et plongez au cœur de la galaxie lors de shows incroyables.</p>
+                    </div>
+                <a href="#" class="lien-offre-items">J’en profite !</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="hotel">
+        <div class="header_hotel">
+            <h2>Prolongez l'aventure jusque dans vos rêves</h2>
+            <p>Téléportez-vous dans l’ambiance dépaysante de nos hôtels à thèmes et bénéficiez de l’accès aux Parcs avant l’heure d’ouverture, de Points Selfie à l’hôtel et autres avantages uniques.</p>
+        </div>
+        <div id="hotel-carousel">
+        <div class="hotel-slide active row">
+            <div class="image-hotel column column-3 hotel-1 ">
+                <!--<img src="./assets/image/hotel/1webp" alt="Hotel 1  ">--> 
+            </div>            
+            <div  class="column column-3">
+                <h3 class="nom-hotel">Metropiltan Hotel</h3>
+                <p class="slogan_hotel"><< Où que vous alliez, restez chez nous. >></p>
+                <ul class="list_info_hotel">
+                    <li class="items_info_hotel"><i class="fa-solid fa-person-walking"></i>10 min. à pied des Parcs</li>
+                    <li class="items_info_hotel"><i class="fa-solid fa-bus"></i>8 min. en navette gratuite</li>
+                    <li class="items_info_hotel">à partir de <span class="prix_hotel"> 80	&euro; </span>par personne</li>
+                </ul>
+                <a href="#" class='button  button_hotel'>Découvrir cet hôtel</a>
+            </div>
+        </div>
+        <div class="hotel-slide row">
+            <div class="image-hotel column column-3 hotel-2">
+                <!--<img src="./assets/image/hotel/2.jpg" alt="Hotel 2">  -->
+            </div>
+            <div  class="column column-3">
+                <h3 class="nom-hotel">Kingsford Hotel</h3>
+                <p class="slogan_hotel"><< Découvrez le luxe à chaque étage.>></p>
+                <ul class="list_info_hotel">
+                    <li class="items_info_hotel"><i class="fa-solid fa-person-walking"></i>10 min. à pied des Parcs</li>
+                    <li class="items_info_hotel"><i class="fa-solid fa-bus"></i>8 min. en navette gratuite</li>
+                    <li class="items_info_hotel">à partir de <span class="prix_hotel"> 90 	&euro; </span>par personne</li>
+                </ul>
+                <a href="#" class='button  button_hotel'>Découvrir cet hôtel</a>
+            </div>
+        </div>
+        <div class="hotel-slide row">
+            <div class="image-hotel column column-3 hotel-3 ">
+                <!--<img src="./assets/image/hotel/3.jpg" alt="Hotel 3">  -->
+            </div>
+            <div class="column column-3">
+                <h3 class="nom-hotel">B&B Hotel</h3>
+                <p class="slogan_hotel"><< Un séjour parfait, chaque fois. >></p>
+                <ul class="list_info_hotel">
+                    <li class="items_info_hotel" ><i class="fa-solid fa-person-walking"></i>10 min. à pied des Parcs</li>
+                    <li class="items_info_hotel"><i class="fa-solid fa-bus"></i>8 min. en navette gratuite</li>
+                    <li class="items_info_hotel">à partir de <span class="prix_hotel"> 104 	&euro; </span>par personne</li>
+                </ul>
+                <a href="#" class='button button_hotel'>Découvrir cet hôtel</a>
+            </div>
+        </div>
+        <div class="row">
+            <a id="prev-btn" class="column column-3"><</a>
+            <a id="next-btn"  class="column column-3">></a>
+        </div>
+        </div>
+    </section>
+
+    <section id="localisation">
+        <div class="wrapper">
+            <h2 class="titre_localisation">localisation</h2>
+            <iframe class="iframe-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.5186150876525!2d2.779108330627227!3d48.86738924179054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61d19ca7ae2bd%3A0x57faf8cb6310e660!2sDisneyland%20Paris!5e0!3m2!1sfr!2sfr!4v1674935475795!5m2!1sfr!2sfr"></iframe>
+        </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+</body>
+<footer id="footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <h3>Parc Star Wars</h3>
+            <ul class="list-footer">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Attractions</a></li>
+                <li><a href="#">Billetterie</a></li>
+                <li><a href="#">Plan du parc</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h3>Contact</h3>
+            <ul class="list-footer">
+                <li><a href="#localisation">Adresse: 123 Rue de la Force, Planète Tatooine</a></li>
+                <li><a href="#">Téléphone: 555-555-5555</a></li>
+                <li><a href="#">Email: parcstarwars@gmail.com</a></li>
+            </ul>
+            <h4><a  id="contact-footer"><i class="fa-solid fa-hand-point-right"></i>Envoyez-nous un message</a></h4>
+            <form class="form_footer" id="contact-form-footer">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+        <div class="footer-col">
+            <h3>Suivez-nous</h3>
+            <ul class="list-footer">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">Copyright © 2023 Parc Star Wars</div>
+</footer>
+</html>
